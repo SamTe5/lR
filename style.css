@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.leftBg{
+    background-color: #000000;
+    
+}
+
+.rightBg{
+    background-color: #ffffff;
+}
+
+
+.loginLeft{
+    position: absolute;
+    border-top-left-radius: 10%;
+    background-color: #000000;
+    min-width: 100%;
+    
+}
+
+  
+
+.registerLeft{
+    
+    position: absolute;
+    margin-left: 100%;
+    border-top-left-radius: 10%;
+    background-color: #ffffff;
+    min-width: 100%;
+    
+}
+
+.loginRight{
+    position: absolute;
+    border-bottom-right-radius: 10%;
+    background-color: #ffffff;
+    min-width: 100%;
+
+}
+
+.registerRight{
+    
+    position: absolute;
+    margin-left: -100%;
+    margin-right: 100%;
+    border-bottom-right-radius: 10%;
+    background-color: #000000;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
